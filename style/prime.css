@@ -1,0 +1,314 @@
+.material-symbols-outlined {
+   font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+
+@font-face {
+   font-family: 'prime video light';
+   src: url(../Fontes/AmazonEmber_Lt.woff);
+}
+
+@font-face {
+   font-family: 'prime video';
+   src: url(../Fontes/AmazonEmber_Rg.woff);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   width: 100%;
+   height: 6vh;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   line-height: 6vh;
+   gap: 50px;
+   font-size: 18px;
+   font-family: 'prime video';
+
+}
+
+.lupa {
+   margin-left: 30px;
+}
+
+header div {
+   display: inline-block;
+}
+
+.logo {
+   height: 4vh;
+   width: auto;
+   line-height: 6vh;
+}
+
+.logo img {
+   height: 20px;
+   width: 100px;
+   background-position: cover;
+   margin-top: 20px;
+}
+
+.navegacao {
+   display: flex;
+}
+
+header a {
+   text-decoration: none;
+   color: white;
+   margin-left: 30px;
+}
+
+.apresentacao {
+   width: 100%;
+   display: flex;
+   background-color: rgb(0, 0, 0);
+}
+
+.oquetemos {
+   width: 40%;
+   color: white;
+
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   margin-left: 6%;
+
+}
+
+.imagemfilmes {
+   width: 60%;
+   height: 72vh;
+   background-image: linear-gradient(to right, black 5%, transparent), url(../img/backg\ cortado.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: auto;
+}
+
+.fotoperfil {
+   margin-top: 13px;
+   height: 3vh;
+   width: 3%;
+   background-image: url(../img/perfil\ sem\ foto.jpg);
+   background-position: center center;
+   background-size: cover;
+   clip-path: circle(35%);
+
+}
+
+h1 {
+   text-align: left;
+   font-size: 40px;
+   font-family: 'prime video';
+   margin-top: 7%;
+}
+
+.assista {
+   font-family: 'prime video light';
+   font-size: 21px;
+}
+
+.oquetemos a {
+   font-family: 'prime video';
+   font-size: 17px;
+   text-decoration: none;
+   color: white;
+
+}
+
+.botao {
+   width: 270px;
+   height: 50px;
+   background-color: #0f79af;
+   text-align: center;
+   line-height: 50px;
+
+}
+
+.ou {
+   width: 270px;
+   height: 50px;
+   line-height: 50px;
+   font-family: 'prime video light';
+
+}
+
+.ou span {
+   color: black;
+   text-decoration-color: white;
+}
+
+.linha {
+   text-decoration: line-through;
+}
+
+.asterisco p {
+   font-family: 'prime video light';
+   font-size: 15px;
+}
+
+.caixacanais {
+   width: 90%;
+   height: 700px;
+   display: flex;
+   margin: 15px auto;
+   margin-bottom: 30px;
+}
+
+.caixaesquerda {
+   width: 50%;
+   height: auto;
+}
+
+.caixadireita {
+   width: 50%;
+   height: auto;
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+
+}
+
+.adicione h1 {
+   margin-top: 25px;
+   font-size: 44px;
+   font-family: 'prime video light';
+   line-height: 49.6px;
+}
+
+.adicione p {
+   font-size: 24px;
+   font-family: 'prime video light';
+   line-height: 28.8px;
+
+}
+
+.canais {
+   width: 250px;
+   height: 170px;
+   margin: 5px 5px;
+   transition: box-shadow 200ms;
+}
+
+.canais img {
+   background-size: cover;
+   width: 100%;
+   margin: 5px 5px;
+}
+
+.canais img:hover {
+   box-shadow: 0px 1px 6px 4px #333;
+}
+
+.caixaloja {
+   width: 100%;
+   height: 650px;
+
+   display: flex;
+}
+
+.imagemloja {
+   width: 60%;
+   height: auto;
+   background-image: linear-gradient(to left, black 5%, transparent), url(../img/backg\ esquerdo\ cortado.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: auto;
+}
+
+.caixadireitaloja {
+   justify-content: center;
+   background-color: black;
+   width: 40%;
+   color: white;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.caixadireitaloja h1 {
+   font-size: 40px;
+   font-family: 'prime video';
+   margin: 30px 0;
+}
+
+.caixadireitaloja p {
+   font-size: 21px;
+   font-family: 'prime video light';
+   margin-bottom: 40px;
+}
+
+.alugar {
+   width: 270px;
+   height: 50px;
+   background-color: #0f79af;
+   text-align: center;
+   line-height: 50px;
+
+}
+
+.alugar a {
+   text-decoration: none;
+   color: white;
+   font-size: 17px;
+   font-family: 'prime video';
+}
+
+.beneficios {
+   width: 90%;
+   height: 550px;
+   margin: 0 auto;
+   display: flex;
+   gap: 20px;
+}
+
+.benefit {
+   width: 33%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   margin-top: 55px;
+}
+
+.benefit h2 {
+   font-size: 36px;
+   font-family: 'prime video';
+}
+
+.benefit p {
+   text-align: center;
+   font-size: 21px;
+   font-family: 'prime video light';
+}
+
+footer {
+   width: 100%;
+   height: 150px;
+   background-color: #222222;
+   text-align: center;
+}
+
+footer img {
+   margin-top: 25px;
+}
+
+footer nav a {
+   text-decoration: none;
+   margin-right: 20px;
+   color: #0f79af;
+   font-size: 15px;
+   font-family: 'prime video light';
+}
+
+footer p {
+   font-size: 15px;
+   font-family: 'prime video light';
+   color: #949494;
+}

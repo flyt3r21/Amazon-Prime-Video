@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+header div {
+    text-align: center;
+}
+
+.janela {
+    margin: 0 auto;
+    width: 350px;
+
+    border: 1px solid #80808049;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteudo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+form div input {
+    border: 1px solid #80808049;
+    background-color: #e8f0fe;
+}
+
+input:focus {
+    outline: 2px solid #c8f3fa;
+}
+
+form>input {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #ffd000;
+    font-size: 13px;
+    border: none;
+}
+
+form>input:hover {
+    background-color: #e2b902;
+    cursor: pointer;
+}
+
+.janela p {
+    font-size: 12px;
+}
+
+details {
+    font-size: 13px;
+    color: #1414e0a6;
+}
+
+summary:hover {
+    color: #c45500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+li:hover {
+    color: #c45500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span {
+    color: #1414e0a6;
+}
+
+span:hover {
+    color: #c45500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bot {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.linha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    background-color: white;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #80808049;
+}
+
+button:hover {
+    background-color: #f7fafa;
+    cursor: pointer;
+}
+
+.linhaesquerda {
+    border: 1px solid #80808049;
+    width: 100px;
+    height: 1px;
+}
+
+.linhadireita {
+    border: 1px solid #80808049;
+    width: 100px;
+    height: 1px;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #80808049;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    background-image: linear-gradient(to bottom, #fafafa, #FFFFFF);
+    
+}
+
+footer div {
+    margin: 10px;
+}
+
+a {
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c44800;
+    text-decoration: underline;
+}
